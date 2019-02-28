@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="1" tests="3" time="0.017126">
+<testcase classname="Login feature" name="Create an account" time="0.008065">
+<skipped><![CDATA[Given the login url of the application......................................undefined
+When user is registered.....................................................undefined
+Given Register different account............................................skipped
+When user registers.........................................................skipped
+Then Registration completed.................................................skipped
+]]></skipped>
+</testcase>
+<testcase classname="Shout Feature" name="Voice Audible" time="0.007538">
+<system-out><![CDATA[Given Sean is 20 meters away from Lucia.....................................passed
+When Sean shouts "free coffee"..............................................passed
+Then Lucia hears the message................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Shout Feature" name="Voice not Audible" time="0.001523">
+<system-out><![CDATA[Given Sean is 200 meters away from Lucia....................................passed
+When Sean shouts "free coffee"..............................................passed
+Then Lucia cannot hear the message..........................................passed
+]]></system-out>
+</testcase>
+</testsuite>
